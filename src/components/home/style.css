@@ -1,0 +1,22 @@
+.container {
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  .title {
+    margin-bottom: 20px;
+  }
+  
+  .planets-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  @media (max-width: 768px) {
+    .planets-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

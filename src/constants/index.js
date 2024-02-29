@@ -1,0 +1,1 @@
+export const PLANET_URL = "https://swapi.dev/api/planets/?page=:page&format=json";
